@@ -55,7 +55,7 @@ Streamlit Result Display
 
 ```
 
-##Model Development and Selection
+## Model Development and Selection
 
 Three classification algorithms were evaluated using cross-validation on the training data:
 
