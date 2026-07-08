@@ -272,14 +272,14 @@ if submit_button:
                 st.markdown("#### Factors pushing toward churn")
 
                 for factor in churn_factors:
-                    st.write(f"🔴 {factor}")
+                    st.write(f" {factor}")
 
 
             with col2:
                 st.markdown("#### Factors pushing toward retention")
 
                 for factor in retention_factors:
-                    st.write(f"🟢 {factor}")
+                    st.write(f" {factor}")
 
         else:
             st.error(
